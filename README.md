@@ -6,6 +6,8 @@ Claude Code skills for chained planning workflows: research → PRD → tasks �
 
 Manus-style file-based planning for complex multi-step tasks. Creates `task_plan.md`, `findings.md`, and `progress.md`, with hooks that survive `/clear` for automatic session recovery.
 
+Forked from [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files).
+
 ```
 npx skills@latest add uxengineer-pizzi/uxengineer-workflow-skills/planning-with-files
 ```
