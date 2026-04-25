@@ -2,13 +2,9 @@
 
 Claude Code skills for chained planning workflows: research → PRD → tasks → Jira.
 
-## planning-with-files
-
-Manus-style file-based planning for complex multi-step tasks. Creates `task_plan.md`, `findings.md`, and `progress.md`, with hooks that survive `/clear` for automatic session recovery.
-
 ## findings-to-prd
 
-Synthesises planning files into a structured `prd.md`. Run after `planning-with-files` to turn raw research into a shippable spec, no questions asked.
+Synthesises planning files into a structured `prd.md`. Run after a planning session to turn raw research into a shippable spec, no questions asked.
 
 ```
 npx skills@latest add uxengineer-pizzi/uxengineer-workflow-skills/findings-to-prd
