@@ -36,6 +36,14 @@ Creates Jira issues from `tasks.md` via the Atlassian MCP. Handles story points,
 npx skills@latest add uxengineer-pizzi/uxengineer-workflow-skills/tasks-to-jira
 ```
 
+## pr-description
+
+Generates a concise PR description from the git diff and branch name, with Jira link, visual changes, and test steps already filled in. Run before opening a pull request to skip the blank-template stare.
+
+```
+npx skills@latest add uxengineer-pizzi/uxengineer-workflow-skills/pr-description
+```
+
 ## Licence
 
 MIT
